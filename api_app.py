@@ -88,7 +88,7 @@ def save_to_s3(image_data):
         image_data,
         s3_bucket_name,
         filename,
-        ExtraArgs={'ContentType': 'image/png', 'ACL': 'public-read'}
+        ExtraArgs={'ContentType': 'image/png'}
     )
     result_url = f"https://{s3_bucket_name}.s3.amazonaws.com/{filename}"
     return result_url
