@@ -161,7 +161,7 @@ All materials, including code, checkpoints, and demo, are provided under the [Cr
 
 ## Docker Deployment
 
-This project provides two Docker configurations following Sillion Valiey standards:
+This project provides two Docker configurations:
 
 ### Flask Container (API Server)
 
@@ -185,4 +185,3 @@ Run the RunPod container:
 docker run catvton-runpod
 ```
 
-The application's source code has been reorganized according to Sillion Valiey standards. All primary code is now located in the `src/` directory.
